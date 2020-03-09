@@ -69,18 +69,22 @@ const numbers = [1, 2, 3, 5, 8, 13, 21, 34, 55];
 
 // Milsestone4
 
-newArray = inventors.sort();
-console.log(newArray);
+// newArray = inventors.sort();
+// console.log(newArray);
 
-function sortZA (array){
-  let ArrayZA = new Array;
-  for (let i = array.length-1; i>=0; i--) {
-    ArrayZA.push(array[i]);
-  }
-  return ArrayZA;
-};
+// function sortZA (array){
+//   let ArrayZA = new Array;
+//   for (let i = array.length-1; i>=0; i--) {
+//     ArrayZA.push(array[i]);
+//   }
+//   return ArrayZA;
+// };
 
-sortZA(newArray);
+// // sortZA(newArray);
+
+console.log(inventors.sort((x, y) => {return x.length - y.length }))
+
+console.log(inventors.sort((x, y) => {return y.length - x.length }))
 
 
-
+// Milsestone5
