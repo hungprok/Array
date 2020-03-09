@@ -95,12 +95,24 @@ const numbers = [1, 2, 3, 5, 8, 13, 21, 34, 55];
 
 // console.log(newArray.reduce((x, y) => x + y));
 
-function firstname (fullname){
-  return fullname.split(' ')[0];
-}
+// function firstname (fullname){
+//   return fullname.split(' ')[0];
+// }
 
-console.log(inventors.map(firstname))
+// console.log(inventors.map(firstname))
 
-console.log(inventors.map(firstname).reduce((x, y) => x + y));
+// console.log(inventors.map(firstname).reduce((x, y) => x + y));
 
-console.log(inventors.some(includes("y")))
+// // // Milsestone6
+
+// console.log(inventors.some((x) => x.includes("y") === false));
+// console.log(inventors.every((x) => x.includes("e") === false));
+
+// function firstname (fullname){
+//   return fullname.split(' ')[0];
+// }
+
+// let FirstnameArray = (inventors.map(firstname));
+// console.log(FirstnameArray.every((x) => x.length > 4));
+
+// Milsestone7
