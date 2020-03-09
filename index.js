@@ -82,9 +82,25 @@ const numbers = [1, 2, 3, 5, 8, 13, 21, 34, 55];
 
 // // sortZA(newArray);
 
-console.log(inventors.sort((x, y) => {return x.length - y.length }))
+// console.log(inventors.sort((x, y) => x.length - y.length))
 
-console.log(inventors.sort((x, y) => {return y.length - x.length }))
+// console.log(inventors.sort((x, y) => y.length - x.length ))
 
 
-// Milsestone5
+// // Milsestone5
+
+// console.log(numbers.reduce((x, y) => x + y));
+
+// newArray = numbers.filter((num) => num % 2 ===0);
+
+// console.log(newArray.reduce((x, y) => x + y));
+
+function firstname (fullname){
+  return fullname.split(' ')[0];
+}
+
+console.log(inventors.map(firstname))
+
+console.log(inventors.map(firstname).reduce((x, y) => x + y));
+
+console.log(inventors.some(includes("y")))
