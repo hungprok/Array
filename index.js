@@ -15,7 +15,7 @@ const inventors = [
 
 const numbers = [1, 2, 3, 5, 8, 13, 21, 34, 55];
 
-// //Milsestone2
+//                                                                                      Milsestone2
 // console.log(inventors.filter((name)=>name.charAt(0)==="A"));
 
 // console.log(inventors.filter((name)=>name.includes("n")));
@@ -33,7 +33,7 @@ const numbers = [1, 2, 3, 5, 8, 13, 21, 34, 55];
 // console.log(numbers.filter((num) => num/10 >= 1));
 // console.log(numbers.filter((num) => num === 1 || num === 2 || num === 3 || num === 5 || (num > 5 && num%2 > 0 && num%3 > 0 && num%5 > 0)));
 
-// //Milsestone3
+//                                                                                    Milsestone3
 
 // function firstname (fullname){
 //   return fullname.split(' ')[0];
@@ -67,7 +67,7 @@ const numbers = [1, 2, 3, 5, 8, 13, 21, 34, 55];
 
 // console.log(numbers.map(powerof2))
 
-// Milsestone4
+//                                                                                   Milsestone4
 
 // newArray = inventors.sort();
 // console.log(newArray);
@@ -87,7 +87,7 @@ const numbers = [1, 2, 3, 5, 8, 13, 21, 34, 55];
 // console.log(inventors.sort((x, y) => y.length - x.length ))
 
 
-// // Milsestone5
+//                                                                                   Milsestone5
 
 // console.log(numbers.reduce((x, y) => x + y));
 
@@ -103,7 +103,14 @@ const numbers = [1, 2, 3, 5, 8, 13, 21, 34, 55];
 
 // console.log(inventors.map(firstname).reduce((x, y) => x + y));
 
-// // // Milsestone6
+
+
+
+
+
+
+
+//                                                                                    Milsestone6
 
 // console.log(inventors.some((x) => x.includes("y") === false));
 // console.log(inventors.every((x) => x.includes("e") === false));
@@ -115,4 +122,13 @@ const numbers = [1, 2, 3, 5, 8, 13, 21, 34, 55];
 // let FirstnameArray = (inventors.map(firstname));
 // console.log(FirstnameArray.every((x) => x.length > 4));
 
-// Milsestone7
+
+
+
+
+
+//                                                                                      Milsestone7
+
+// console.log(inventors.find((x)=> x.includes(".")));
+
+// console.log(numbers.find((x)=> x%7 === 0));
