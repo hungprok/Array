@@ -55,4 +55,14 @@ const numbers = [1, 2, 3, 5, 8, 13, 21, 34, 55];
 
 // console.log(inventors.map(firstname))
 
+console.log(numbers.map(x => x*100))
 
+// let i = 0
+// function powerof2 (x) {
+//   i++;
+//   x = (x/x)*2;
+//   x = Math.pow(x,i)
+//   return x;
+// }
+
+// console.log(numbers.map(powerof2))
