@@ -55,7 +55,7 @@ const numbers = [1, 2, 3, 5, 8, 13, 21, 34, 55];
 
 // console.log(inventors.map(firstname))
 
-console.log(numbers.map(x => x*100))
+// console.log(numbers.map(x => x*100))
 
 // let i = 0
 // function powerof2 (x) {
@@ -66,3 +66,21 @@ console.log(numbers.map(x => x*100))
 // }
 
 // console.log(numbers.map(powerof2))
+
+// Milsestone4
+
+newArray = inventors.sort();
+console.log(newArray);
+
+function sortZA (array){
+  let ArrayZA = new Array;
+  for (let i = array.length-1; i>=0; i--) {
+    ArrayZA.push(array[i]);
+  }
+  return ArrayZA;
+};
+
+sortZA(newArray);
+
+
+
