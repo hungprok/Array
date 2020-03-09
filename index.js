@@ -34,10 +34,9 @@ console.log(numbers.filter((num) => num/10 >= 1));
 console.log(numbers.filter((num) => num === 1 || num === 2 || num === 3 || num === 5 || (num > 5 && num%2 > 0 && num%3 > 0 && num%5 > 0)));
 
 //Milsestone3
-function firstname (){
-  split(' ')[0]
-}
-str = "Albert Einstein"
-str.substr(0,str.indexOf(' '));
 
-console.log(inventors.map(fisrtname()))
+function firstname (fullname){
+  return fullname.split(' ')[0];
+}
+
+console.log(inventors.map(firstname))
